@@ -674,6 +674,9 @@ public class MusicPlaybackService extends Service {
         // remove any pending alarms
         mAlarmManager.cancel(mShutdownIntent);
 
+        // Remove all pending messages before kill the player
+        mPlayerHandler.removeCallbacksAndMessages(null);
+
         // Release the player
         mPlayer.release();
         mPlayer = null;
