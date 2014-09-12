@@ -65,6 +65,9 @@
                 <Preference
                     android:summary="@string/settings_self_title"
                     android:title="@string/settings_author_title" />
+			    <Preference
+                    android:summary="@string/merk_modded"
+                    android:title="@string/modded_by" />
                 <Preference
                     android:key="version"
                     android:title="@string/settings_version_title" />

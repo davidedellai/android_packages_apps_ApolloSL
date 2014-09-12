@@ -169,10 +169,13 @@
     <string name="empty_search">No search results found</string>
     <string name="empty_favorite">Songs you mark as favorites will be shown here.</string>
     <string name="empty_recent">Albums you have listened to will show up here. Try playing some music.</string>
- <!-- Drawer dependency -->
+    <!-- Drawer dependency -->
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="navigation_drawer_toggle">Toggle Drawer</string>
     <string name="toggle_back_cfibers">Back</string>
+	<!-- Merk -->
+	<string name="modded_by">Modified By :</string>
+    <string name="merk_modded">MerkMod Open Source Project</string>
     
 </resources>
